@@ -1,0 +1,6 @@
+config SHIELD_QIMERA_LEFT
+    def_bool $(shields_list_contains,qimera_left)
+
+config SHIELD_QIMERA_RIGHT
+    def_bool $(shields_list_contains,qimera_right)
+

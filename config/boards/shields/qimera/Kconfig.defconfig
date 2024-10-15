@@ -1,0 +1,16 @@
+if SHIELD_QIMERA_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Qimera v1"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_QIMERA_LEFT || SHIELD_QIMERA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
