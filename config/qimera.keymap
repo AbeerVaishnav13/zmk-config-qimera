@@ -91,41 +91,41 @@
 
         home {
             bindings = <
-&kp ESCAPE  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT          &kp C_MUTE      &kp C_VOL_DN   &kp C_VOL_UP  &ss_area  &ss_util  &kp DEL
-&kp GRAVE   &kp Q         &kp W         &kp E       &kp R             &kp T               &kp Y           &kp U          &kp I         &kp O     &kp P     &kp BSLH
-&kp TAB     &mt LCTRL A   &mt LSHFT S   &mt LALT D  &mt LALT F        &mt LCTRL G         &kp H           &kp J          &kp K         &kp L     &kp SEMI  &kp BSPC
-&kp O       &kp Z         &kp X         &kp C       &kp V             &kp B               &kp N           &kp M          &kp COMMA     &kp DOT   &kp FSLH  &kp APOS
-&kp BSPC    &none         &none         &mo 3       &shift_caps       &kp_layer LGUI 1    &mt RALT SPACE  &mt RCTRL RET  &kp UNDER     &none     &none     &none
+&kp ESCAPE  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT                        &kp C_MUTE      &kp C_VOL_DN     &kp C_VOL_UP  &ss_area  &ss_util  &kp DEL
+&kp GRAVE   &kp Q         &kp W         &kp E       &kp R             &kp T                             &kp Y           &kp U            &kp I         &kp O     &kp P     &kp BSLH
+&kp TAB     &mt LCTRL A   &mt LSHFT S   &mt LALT D  &mt LALT F        &mt LCTRL G                       &kp H           &kp J            &kp K         &kp L     &kp SEMI  &kp BSPC
+&kp BSPC    &kp Z         &kp X         &kp C       &kp V             &kp B                             &kp N           &kp M            &kp COMMA     &kp DOT   &kp FSLH  &kp APOS
+                                                    &shift_caps       &kp_layer LGUI 1  &mo 3  &kp RET  &mt RALT SPACE  &mt RCTRL UNDER
             >;
         };
 
         num_sym {
             bindings = <
-&to 0   &trans     &trans  &trans  &trans     &trans              &trans            &trans    &trans     &trans       &trans      &trans
-&trans  &kp MINUS  &kp N1  &kp N2  &kp N3     &kp PLUS            &kp LPAR          &kp RPAR  &kp LT     &kp GT       &kp AMPS    &trans
-&trans  &kp ASTRK  &kp N4  &kp N5  &kp N6     &kp DOT             &kp LBRC          &kp RBRC  &kp EXCL   &kp AT       &kp HASH    &trans
-&trans  &kp FSLH   &kp N7  &kp N8  &kp N9     &kp N0              &kp LBKT          &kp RBKT  &kp CARET  &kp PERCENT  &kp DOLLAR  &trans
-&trans  &trans     &trans  &trans  &kp EQUAL  &kp_layer LGUI 2    &kp_layer RALT 0  &trans    &trans     &trans       &trans      &trans
+&to 0   &trans     &trans  &trans  &trans   &trans                            &trans    &trans    &trans     &trans       &trans      &trans
+&trans  &kp MINUS  &kp N1  &kp N2  &kp N3   &kp PLUS                          &kp LPAR  &kp RPAR  &kp LT     &kp GT       &kp AMPS    &trans
+&trans  &kp ASTRK  &kp N4  &kp N5  &kp N6   &kp EQUAL                         &kp LBRC  &kp RBRC  &kp EXCL   &kp AT       &kp HASH    &trans
+&trans  &kp FSLH   &kp N7  &kp N8  &kp N9   &kp N0                            &kp LBKT  &kp RBKT  &kp CARET  &kp PERCENT  &kp DOLLAR  &trans
+                                   &kp DOT  &kp_layer LGUI 2  &trans  &trans  &to 0     &trans
             >;
         };
 
         nav {
             bindings = <
-&to 0   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &email            &work_email  &none      &trans       &trans         &trans
-&none   &none         &kp F1        &kp F2        &kp F3        &none               &none             &kp UP       &none      &kp PAGE_UP  &kp PAGE_DOWN  &none
-&none   &kp LCTRL     &mt LSHFT F4  &mt LALT F5   &mt LALT F6   &kp LCTRL           &kp LEFT          &kp DOWN     &kp RIGHT  &kp HOME     &kp END        &trans
-&none   &none         &kp F7        &kp F8        &kp F9        &none               &none             &kp F10      &kp F11    &kp F12      &none          &none
-&trans  &trans        &trans        &trans        &shift_caps   &kp_layer LGUI 1    &kp_layer RALT 0  &trans       &none      &none        &none          &bt BT_CLR
+&to 0  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &email    &work_email  &none      &trans       &trans         &trans
+&none  &none         &kp F1        &kp F2        &kp F3        &none                            &none     &kp UP       &none      &kp PAGE_UP  &kp PAGE_DOWN  &none
+&none  &kp LCTRL     &mt LSHFT F4  &mt LALT F5   &mt LALT F6   &kp LCTRL                        &kp LEFT  &kp DOWN     &kp RIGHT  &kp HOME     &kp END        &trans
+&none  &none         &kp F7        &kp F8        &kp F9        &none                            &none     &kp F10      &kp F11    &kp F12      &none          &none
+                                                 &shift_caps   &kp_layer LGUI 1  &trans  &to 0  &trans    &trans
             >;
         };
 
         one_handed {
             bindings = <
-&kp DEL   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area     &ss_util    &trans  &trans  &trans  &trans  &trans  &trans
-&kp BSLH  &kp P       &kp O         &kp I         &kp U        &kp Y       &trans  &trans  &trans  &trans  &trans  &trans
-&kp BSPC  &kp SEMI    &kp L         &mt LSHFT K   &mt LSHFT J  &kp H       &trans  &trans  &trans  &trans  &trans  &trans
-&kp APOS  &kp FSLH    &kp DOT       &kp COMMA     &kp M        &kp N       &trans  &trans  &trans  &trans  &trans  &trans
-&kp RET   &kp SPACE   &trans        &trans        &shift_caps  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp DEL   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
+&kp BSLH  &kp P       &kp O         &kp I         &kp U            &kp Y                          &none  &none  &none  &none  &none  &none
+&kp RET   &kp SEMI    &kp L         &mt LSHFT K   &mt LSHFT J      &kp H                          &none  &none  &none  &none  &none  &none
+&kp APOS  &kp FSLH    &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
+                                                  &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
             >;
         };
     };
