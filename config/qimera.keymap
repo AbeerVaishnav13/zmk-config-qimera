@@ -128,5 +128,15 @@
                                                   &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
             >;
         };
+
+        graphite {
+            bindings = <
+&kp ESC    &trans  &trans  &trans  &trans       &trans                               &trans          &trans           &trans     &trans   &trans    &trans
+&kp GRAVE  &kp B   &kp L   &kp D   &kp W        &kp Z                                &kp APOS        &kp F            &kp O      &kp U    &kp J     &kp BSLH
+&kp TAB    &kp N   &kp R   &kp T   &kp S        &kp G                                &kp Y           &kp H            &kp A      &kp E    &kp I     &kp BSPC
+&kp BSPC   &kp Q   &kp X   &kp M   &kp C        &kp V                                &kp K           &kp P            &kp COMMA  &kp DOT  &kp FSLH  &kp SEMI
+                                   &shift_caps  &kp_layer LGUI 1  &trans  &kp ENTER  &mt LALT SPACE  &mt LCTRL UNDER
+            >;
+        };
     };
 };
