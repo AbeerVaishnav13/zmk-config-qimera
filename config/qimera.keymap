@@ -134,7 +134,7 @@
 &kp ESC    &none  &none  &none  &none        &none                               &none           &none            &none      &none    &none     &none
 &kp GRAVE  &kp B  &kp L  &kp D  &kp W        &kp Z                               &kp APOS        &kp F            &kp O      &kp U    &kp J     &kp BSLH
 &kp TAB    &kp N  &kp R  &kp T  &kp S        &kp G                               &kp Y           &kp H            &kp A      &kp E    &kp I     &kp BSPC
-&kp BSPC   &kp X  &kp M  &kp C  &kp V        &kp Q                               &kp K           &kp P            &kp COMMA  &kp DOT  &kp FSLH  &kp SEMI
+&kp BSPC   &kp Q  &kp X  &kp M  &kp C        &kp V                               &kp K           &kp P            &kp COMMA  &kp DOT  &kp FSLH  &kp SEMI
                                 &shift_caps  &kp_layer LGUI 1  &none  &kp ENTER  &mt LALT SPACE  &mt LCTRL UNDER
             >;
         };
