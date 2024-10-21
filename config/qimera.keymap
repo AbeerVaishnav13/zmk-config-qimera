@@ -13,7 +13,7 @@
 
         lock_screen {
             bindings = <&kp K_POWER>;
-            key-positions = <11 48>;
+            key-positions = <11 36>;
             timeout-ms = <250>;
             layers = <2>;
         };
