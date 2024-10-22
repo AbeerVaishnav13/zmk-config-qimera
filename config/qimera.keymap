@@ -29,6 +29,12 @@
             key-positions = <44 45>;
             layers = <0 4>;
         };
+
+        semi_one_handed {
+            bindings = <&kp SEMI>;
+            key-positions = <38 39>;
+            layers = <3>;
+        };
     };
 
     macros {
@@ -107,10 +113,10 @@
 
         num_sym {
             bindings = <
-&to 0   &trans     &trans  &trans  &trans   &trans                            &trans    &trans    &trans     &trans       &trans      &trans
-&trans  &kp MINUS  &kp N1  &kp N2  &kp N3   &kp PLUS                          &kp LPAR  &kp RPAR  &kp LT     &kp GT       &kp AMPS    &trans
-&trans  &kp ASTRK  &kp N4  &kp N5  &kp N6   &kp N0                            &kp LBRC  &kp RBRC  &kp EXCL   &kp AT       &kp HASH    &trans
-&trans  &kp FSLH   &kp N7  &kp N8  &kp N9   &kp EQUAL                         &kp LBKT  &kp RBKT  &kp CARET  &kp PERCENT  &kp DOLLAR  &trans
+&to 0   &trans     &trans  &trans  &trans   &trans                            &trans    &trans       &trans    &trans    &trans      &trans
+&trans  &kp MINUS  &kp N1  &kp N2  &kp N3   &kp PLUS                          &kp AT    &kp LT       &kp LPAR  &kp RPAR  &kp GT      &trans
+&trans  &kp ASTRK  &kp N4  &kp N5  &kp N6   &kp N0                            &kp EXCL  &kp CARET    &kp LBRC  &kp RBRC  &kp DOLLAR  &trans
+&trans  &kp FSLH   &kp N7  &kp N8  &kp N9   &kp EQUAL                         &kp HASH  &kp PERCENT  &kp LBKT  &kp RBKT  &kp AMPS    &trans
                                    &kp DOT  &kp_layer LGUI 2  &trans  &trans  &to 0     &trans
             >;
         };
@@ -127,10 +133,10 @@
 
         one_handed {
             bindings = <
-&kp DEL   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
+&kp DEL   &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
 &kp BSLH  &kp P       &kp O         &kp I         &kp U            &kp Y                          &none  &none  &none  &none  &none  &none
-&kp RET   &kp SEMI    &kp L         &mt LSHFT K   &mt LSHFT J      &kp H                          &none  &none  &none  &none  &none  &none
-&kp APOS  &kp FSLH    &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
+&kp RET   &kp APOS    &kp L         &mt LSHFT K   &mt LSHFT J      &kp H                          &none  &none  &none  &none  &none  &none
+&kp BSPC  &kp FSLH    &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
                                                   &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
             >;
         };
