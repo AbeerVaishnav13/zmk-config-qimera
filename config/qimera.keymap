@@ -134,9 +134,9 @@
         one_handed {
             bindings = <
 &kp DEL   &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
-&kp BSLH  &kp P       &kp O         &kp I         &kp U            &kp Y                          &none  &none  &none  &none  &none  &none
-&kp RET   &kp APOS    &kp L         &mt LSHFT K   &mt LSHFT J      &kp H                          &none  &none  &none  &none  &none  &none
-&kp BSPC  &kp FSLH    &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
+&kp BSLH  &kp J       &kp U         &kp O         &kp F            &kp APOS                       &none  &none  &none  &none  &none  &none
+&kp RET   &kp I       &kp E         &mt LSHFT A   &mt LSHFT H      &kp Y                          &none  &none  &none  &none  &none  &none
+&kp BSPC  &kp FSLH    &kp DOT       &kp COMMA     &kp P            &kp K                          &none  &none  &none  &none  &none  &none
                                                   &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
             >;
         };
