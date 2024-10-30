@@ -104,9 +104,9 @@
         home {
             bindings = <
 &kp ESCAPE  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT                        &kp C_MUTE      &kp C_VOL_DN     &kp C_VOL_UP  &ss_area  &ss_util  &kp DEL
-&kp GRAVE   &kp B         &kp L         &kp D       &kp W             &kp Z                             &kp APOS        &kp F            &kp O         &kp U     &kp J     &kp BSLH
-&kp TAB     &mt LCTRL N   &mt LSHFT R   &mt LALT T  &mt LALT S        &mt LCTRL G                       &kp Y           &kp H            &kp A         &kp E     &kp I     &kp BSPC
-&kp BSPC    &kp Q         &kp X         &kp M       &kp C             &kp V                             &kp K           &kp P            &kp COMMA     &kp DOT   &kp FSLH  &to 4
+&kp GRAVE   &kp Q         &kp W         &kp E       &kp R             &kp T                             &kp Y           &kp U            &kp I         &kp O     &kp P     &kp BSLH
+&kp TAB     &mt LCTRL A   &mt LSHFT S   &mt LALT D  &mt LALT F        &mt LCTRL G                       &kp H           &kp J            &kp K         &kp L     &kp APOS  &kp BSPC
+&kp BSPC    &kp Z         &kp X         &kp C       &kp V             &kp B                             &kp N           &kp M            &kp COMMA     &kp DOT   &kp FSLH  &to 4
                                                     &shift_caps       &kp_layer LGUI 1  &mo 3  &kp RET  &mt RALT SPACE  &mt RCTRL UNDER
             >;
         };
@@ -134,19 +134,19 @@
         one_handed {
             bindings = <
 &kp DEL   &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
-&kp BSLH  &kp J       &kp U         &kp O         &kp F            &kp APOS                       &none  &none  &none  &none  &none  &none
-&kp RET   &kp I       &kp E         &mt LSHFT A   &mt LSHFT H      &kp Y                          &none  &none  &none  &none  &none  &none
-&kp BSPC  &kp FSLH    &kp DOT       &kp COMMA     &kp P            &kp K                          &none  &none  &none  &none  &none  &none
+&kp BSLH  &kp P       &kp O         &kp I         &kp U            &kp Y                          &none  &none  &none  &none  &none  &none
+&kp RET   &kp SEMI    &kp L         &mt LSHFT K   &mt LSHFT J      &kp H                          &none  &none  &none  &none  &none  &none
+&kp BSPC  &kp FSLH    &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
                                                   &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
             >;
         };
 
-        qwerty {
+        graphite {
             bindings = <
 &kp ESC    &none        &none        &none       &none        &none                               &none           &none            &none      &none    &none     &none
-&kp GRAVE  &kp Q        &kp W        &kp E       &kp R        &kp T                               &kp Y           &kp U            &kp I      &kp O    &kp P     &kp BSLH
-&kp TAB    &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LALT F   &mt LCTRL G                         &kp H           &kp J            &kp K      &kp L    &kp APOS  &kp BSPC
-&kp BSPC   &kp Z        &kp X        &kp C       &kp V        &kp B                               &kp N           &kp M            &kp COMMA  &kp DOT  &kp FSLH  &none
+&kp GRAVE  &kp B        &kp L        &kp D       &kp W        &kp Z                               &kp APOS        &kp F            &kp O      &kp U    &kp J     &kp BSLH
+&kp TAB    &mt LCTRL N  &mt LSHFT R  &mt LALT T  &mt LALT S   &mt LCTRL G                         &kp Y           &kp H            &kp A      &kp E    &kp I     &kp BSPC
+&kp BSPC   &kp Q        &kp X        &kp M       &kp C        &kp V                               &kp K           &kp P            &kp COMMA  &kp DOT  &kp FSLH  &none
                                                  &shift_caps  &kp_layer LGUI 1  &none  &kp ENTER  &mt LALT SPACE  &mt LCTRL UNDER
             >;
         };
