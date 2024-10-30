@@ -133,11 +133,11 @@
 
         one_handed {
             bindings = <
-&kp DEL   &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
-&kp BSLH  &kp P       &kp O         &kp I         &kp U            &kp Y                          &none  &none  &none  &none  &none  &none
-&kp RET   &kp SEMI    &kp L         &mt LSHFT K   &mt LSHFT J      &kp H                          &none  &none  &none  &none  &none  &none
-&kp BSPC  &kp FSLH    &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
-                                                  &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
+&kp DEL   &kp K_MUTE     &kp C_VOL_DN  &kp C_VOL_UP  &ss_area         &ss_util                       &none  &none  &none  &none  &none  &none
+&kp BSLH  &kp P          &kp O         &kp I         &kp U            &kp Y                          &none  &none  &none  &none  &none  &none
+&kp RET   &mt LGUI APOS  &kp L         &mt LSHFT K   &mt LSHFT J      &mt LGUI H                     &none  &none  &none  &none  &none  &none
+&kp BSPC  &kp FSLH       &kp DOT       &kp COMMA     &kp M            &kp N                          &none  &none  &none  &none  &none  &none
+                                                     &mt LCTRL UNDER  &mt LALT SPACE  &trans  &none  &none  &none
             >;
         };
 
