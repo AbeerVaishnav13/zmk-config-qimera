@@ -114,10 +114,6 @@
         };
     };
 
-    &mmv { time-to-max-speed-ms = <150>; };
-
-    &msc { time-to-max-speed-ms = <150>; };
-
     keymap {
         compatible = "zmk,keymap";
 
