@@ -1,4 +1,5 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -109,6 +110,16 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&to>;
         };
+    };
+
+    &mmv {
+        time-to-max-speed-ms = <150>;
+        acceleration-exponent = <2>;
+    };
+
+    &msc {
+        time-to-max-speed-ms = <150>;
+        acceleration-exponent = <2>;
     };
 
     keymap {
