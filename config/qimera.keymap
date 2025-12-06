@@ -76,11 +76,10 @@
             layers = <1 2 6>;
         };
 
-        media_layer {
+        media_layer_right {
             bindings = <&to 6>;
-            key-positions = <37 46>;
+            key-positions = <46 52>;
             layers = <0>;
-            timeout-ms = <200>;
         };
 
         bt_clr_combo {
@@ -109,14 +108,21 @@
 
         bspc_left_handed {
             bindings = <&kp BSPC>;
-            key-positions = <25 28>;
+            key-positions = <28 26>;
             layers = <4>;
         };
 
         enter_left_handed {
             bindings = <&kp ENTER>;
-            key-positions = <37 40>;
+            key-positions = <40 38>;
             layers = <4>;
+        };
+
+        media_layer_left {
+            bindings = <&to 6>;
+            key-positions = <49 37>;
+            timeout-ms = <0>;
+            layers = <0>;
         };
     };
 
