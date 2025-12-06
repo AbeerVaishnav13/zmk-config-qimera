@@ -96,7 +96,7 @@
 
         esc_right_handed {
             bindings = <&kp ESC>;
-            key-positions = <19 22>;
+            key-positions = <22 21>;
             layers = <4>;
         };
 
@@ -139,7 +139,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <13 16>;
+            key-positions = <13 14>;
             layers = <0>;
         };
 
