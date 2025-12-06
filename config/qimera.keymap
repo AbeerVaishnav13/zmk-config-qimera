@@ -17,7 +17,7 @@
 
         lock_screen {
             bindings = <&kp K_POWER>;
-            key-positions = <37 22>;
+            key-positions = <37 22 13 46>;
             timeout-ms = <250>;
             layers = <2>;
         };
@@ -79,37 +79,25 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <25 28>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         tab_right_handed {
             bindings = <&kp TAB>;
             key-positions = <34 31>;
-            layers = <4>;
-        };
-
-        backspace {
-            bindings = <&kp BSPC>;
-            key-positions = <19 22>;
-            layers = <0>;
-        };
-
-        bspc_left_handed {
-            bindings = <&kp BSPC>;
-            key-positions = <16 13>;
-            layers = <3>;
+            layers = <4 1>;
         };
 
         delete {
             bindings = <&kp DEL>;
-            key-positions = <40 37>;
+            key-positions = <19 22>;
             layers = <0>;
         };
 
-        del_right_handed {
+        del_left_handed {
             bindings = <&kp DEL>;
-            key-positions = <43 46>;
-            layers = <4>;
+            key-positions = <13 16>;
+            layers = <3>;
         };
 
         to_zero {
@@ -129,6 +117,12 @@
             bindings = <&bt BT_CLR>;
             key-positions = <48 53>;
             layers = <5>;
+        };
+
+        minus_right_handed {
+            bindings = <&kp MINUS>;
+            key-positions = <31 32>;
+            layers = <4>;
         };
     };
 
@@ -214,11 +208,11 @@
 
         home {
             bindings = <
-&none  &none        &none        &none       &none       &none                           &none        &none        &none       &none         &none     &none
-&none  &kp Q        &kp W        &kp E       &kp R       &kp T                           &kp Y        &kp U        &kp I       &kp O         &kp P     &none
-&none  &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LALT F  &mt LCTRL G                     &mt RCTRL H  &mt RALT J   &mt RALT K  &mt RSHIFT L  &kp APOS  &none
-&none  &kp Z        &kp X        &kp C       &kp V       &kp B                           &kp N        &kp M        &kp COMMA   &kp DOT       &kp FSLH  &none
-                                             &mo 3       &kp_layer LGUI 1  &none  &none  &lt 2 SPACE  &lt 4 ENTER
+&none  &none        &none        &none       &none        &none                           &none        &none       &none       &none         &none     &none
+&none  &kp Q        &kp W        &kp E       &kp R        &kp T                           &kp Y        &kp U       &kp I       &kp O         &kp P     &none
+&none  &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LALT F   &mt LCTRL G                     &mt RCTRL H  &mt RALT J  &mt RALT K  &mt RSHIFT L  &kp APOS  &none
+&none  &kp Z        &kp X        &kp C       &kp V        &kp B                           &kp N        &kp M       &kp COMMA   &kp DOT       &kp FSLH  &none
+                                             &lt 3 ENTER  &kp_layer LGUI 1  &none  &none  &lt 2 SPACE  &lt 4 BSPC
             >;
         };
 
@@ -248,7 +242,7 @@
 &trans  &kp P            &kp O       &kp I       &kp U       &kp Y                        &none  &none  &none  &none  &none  &none
 &trans  &mt LSHIFT APOS  &mt LALT L  &mt LGUI K  &mt LGUI J  &mt LSHIFT H                 &none  &none  &none  &none  &none  &none
 &trans  &mt LCTRL FSLH   &kp DOT     &kp COMMA   &kp M       &kp N                        &none  &none  &none  &none  &none  &none
-                                                 &none       &none         &trans  &none  &none  &none
+                                                 &kp BSPC    &none         &trans  &none  &none  &none
             >;
         };
 
