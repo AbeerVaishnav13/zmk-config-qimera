@@ -70,7 +70,7 @@
             layers = <4 0>;
         };
 
-        to_zero {
+        to_zero_left {
             bindings = <&to 0>;
             key-positions = <13 16>;
             layers = <1 2 6>;
@@ -96,26 +96,20 @@
 
         esc_right_handed {
             bindings = <&kp ESC>;
-            key-positions = <19 21>;
+            key-positions = <19 22>;
             layers = <5>;
         };
 
         tab_right_handed {
             bindings = <&kp TAB>;
             key-positions = <43 44>;
-            layers = <5>;
+            layers = <5 0>;
         };
 
         bspc_left_handed {
             bindings = <&kp BSPC>;
-            key-positions = <28 26>;
-            layers = <4 0>;
-        };
-
-        enter_left_handed {
-            bindings = <&kp ENTER>;
-            key-positions = <40 38>;
-            layers = <4>;
+            key-positions = <38 40>;
+            layers = <4 0 1>;
         };
 
         media_layer_left {
@@ -129,6 +123,42 @@
             bindings = <&kp TAB>;
             key-positions = <40 39>;
             layers = <0>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <31 33>;
+            layers = <0>;
+        };
+
+        bspc {
+            bindings = <&kp BSPC>;
+            key-positions = <43 45>;
+            layers = <0>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <13 16>;
+            layers = <0>;
+        };
+
+        del_right_handed {
+            bindings = <&kp DEL>;
+            key-positions = <19 21>;
+            layers = <0>;
+        };
+
+        spc_left_handed {
+            bindings = <&kp SPACE>;
+            key-positions = <26 28>;
+            layers = <0 4>;
+        };
+
+        to_zero_right {
+            bindings = <&to 0>;
+            key-positions = <13 16 19 22>;
+            layers = <1 2 6>;
         };
     };
 
