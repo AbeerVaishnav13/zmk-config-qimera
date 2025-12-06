@@ -109,7 +109,7 @@
         bspc_left_handed {
             bindings = <&kp BSPC>;
             key-positions = <28 26>;
-            layers = <4>;
+            layers = <4 0>;
         };
 
         enter_left_handed {
@@ -122,6 +122,12 @@
             bindings = <&to 6>;
             key-positions = <49 37>;
             timeout-ms = <0>;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <28 25>;
             layers = <0>;
         };
     };
