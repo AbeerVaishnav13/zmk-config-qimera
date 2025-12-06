@@ -306,11 +306,11 @@
 
         media {
             bindings = <
-&none  &none         &none         &none       &none         &none                       &none         &none         &none         &none         &none         &none
-&none  &ss_util      &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &ss_area                    &ss_area      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_util      &none
-&none  &kp C_BRI_DN  &kp C_PREV    &kp C_PP    &kp C_NEXT    &kp C_BRI_UP                &kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP  &none
-&none  &none         &none         &none       &none         &none                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
-                                               &none         &none         &none  &none  &to 0         &none
+&none  &none         &none         &none         &none         &none                       &none         &none         &none         &none         &none         &none
+&none  &ss_util      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_area                    &ss_area      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_util      &none
+&none  &kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP                &kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
+                                                 &none         &none         &none  &none  &to 0         &none
             >;
         };
     };
