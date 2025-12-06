@@ -96,13 +96,13 @@
 
         esc_right_handed {
             bindings = <&kp ESC>;
-            key-positions = <22 19>;
+            key-positions = <19 21>;
             layers = <5>;
         };
 
         tab_right_handed {
             bindings = <&kp TAB>;
-            key-positions = <34 31>;
+            key-positions = <43 44>;
             layers = <5>;
         };
 
