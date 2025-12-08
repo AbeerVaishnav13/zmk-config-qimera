@@ -105,7 +105,7 @@
         media_layer_left {
             bindings = <&to 6>;
             key-positions = <49 37>;
-            timeout-ms = <0>;
+            timeout-ms = <150>;
             layers = <0>;
         };
 
@@ -228,7 +228,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
 
         mo_to: mo_to {
